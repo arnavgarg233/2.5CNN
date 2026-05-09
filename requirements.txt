@@ -1,0 +1,26 @@
+# Install a PyTorch build matching your CUDA / MPS / CPU platform first:
+#   https://pytorch.org/get-started/locally/
+torch>=2.0
+torchvision
+torchmetrics
+monai>=1.2
+
+numpy
+scipy
+pandas
+scikit-learn
+nibabel
+
+matplotlib
+seaborn
+imageio
+pillow
+
+pyyaml
+tqdm
+psutil
+wandb
+
+# Scripts/severity_assessment_preloaded.py additionally needs
+# `volumentations` and `efficientnet_3D`, which are not on PyPI under
+# those names; install them from source if you need that script.

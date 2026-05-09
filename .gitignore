@@ -1,0 +1,10 @@
+# Ignore the post-processed folder
+post-processed/
+post-processed-slices/
+processed_scans/
+wandb/
+outputs/
+imgs/
+__pycache__/
+gifs/
+*.pth

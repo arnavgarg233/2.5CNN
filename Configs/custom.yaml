@@ -1,0 +1,17 @@
+batch_size: 128
+checkpoint: null
+class_mapping:
+  0: 0
+  2: 1
+classes_to_include:
+- 0
+- 2
+dataset_id: 2d
+dropout: 0.05
+exp_name: resnet_no_dropout_multi_class
+learning_rate: 0.001
+model: custom_resnet
+no_transform: false
+num_epochs: 100
+overfit: false
+weighted: false
